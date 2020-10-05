@@ -2,7 +2,6 @@
 #
 # VERSION               2.0.0
 
-
 FROM node:10-alpine
 
 LABEL Description="qick startup image to start the webrtc dev executable" maintainer="Altanai" Version="=2.0"
@@ -34,5 +33,5 @@ COPY --chown=node:node . .
 EXPOSE 8080
 
 CMD http-server --help
-CMD [“echo”, “Container for WebrtcDev Quick startup”]
+CMD ["echo", "Container for WebrtcDev Quick startup"]
 CMD ["http-server", "-S",  "-C" ,  "cert.pem" ,  "-o" ]

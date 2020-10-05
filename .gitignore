@@ -5,3 +5,4 @@ ca.srl
 cert.pem
 key.pem
 package-lock.json
+.idea

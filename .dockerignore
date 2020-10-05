@@ -2,3 +2,9 @@ node_modules
 npm-debug.log
 Dockerfile
 .dockerignore
+ca-key.pem
+ca.pem
+ca.srl
+cert.pem
+key.pem
+.idea
